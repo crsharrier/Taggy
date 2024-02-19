@@ -5,6 +5,7 @@ from pathlib import Path
 from typing import Dict, List, Callable
 
 num_audio_files = 0
+settings = TaggySettings()
 
 def analyse_tags():
     pass
@@ -40,7 +41,7 @@ def parse_filesystem_tree(root_path):
                                                            }
                                                            ,{}])[1]
         filename = relative_path.parts[-1]
-        if filename.lower().endswith(tuple(TaggySettings.file_formats)):
+        if filename.lower().endswith(tuple(settings.file_formats)):
             current_dict = current_dict.setdefault(os.path.splitext(filename)[0], {'path': str(relative_path)
                                                               ,'visible': True
                                                               ,'type': ''
