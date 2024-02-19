@@ -1,0 +1,10 @@
+{
+    "path to db": "taggy.db",
+    "sample folder": "/home/crsharrier/Music",
+    "file formats": [
+        "wav",
+        "mp3",
+        "aiff",
+        "m4a"
+    ]
+}
