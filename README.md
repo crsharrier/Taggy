@@ -8,6 +8,9 @@ An audio file sample organizer. Taggy is a GUI app which allows you to browse al
 The user can browse, edit tags, and filter by tags. The app will also have facillity to preview audio files and export the members of user tags as 'kits' (copy the files designated by a user tag, collecting them into a new directory). 
 
 ### Getting Started:
+Folder of audio samples for testing. Download and unzip: 
+https://drive.google.com/file/d/1SpJ0k0EsXb85hW5YFtmKQiad1lRYh6B9/view?usp=sharing
+
 ```bash
 # Clone the repository
 git clone https://github.com/crsharrier/Taggy.git
